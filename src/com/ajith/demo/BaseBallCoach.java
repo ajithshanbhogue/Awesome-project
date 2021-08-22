@@ -9,6 +9,7 @@ public class BaseBallCoach implements Coach {
 	public BaseBallCoach(FortuneService fortuneService) {
 		super();
 		this.fortuneService = fortuneService;
+		System.out.println("good");
 	}
 
 	@Override
